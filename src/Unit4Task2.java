@@ -25,7 +25,7 @@ public class Unit4Task2 {
         for(int i = 1;i<n;i++){
             for(int j = 0;j<i;j++){
                 if(mass[i][j]%2!=0) {
-                    System.out.print(mass[i][j] + " ");
+                    System.out.print(mass[i][j] +" ");
                 }
             }
         }
