@@ -23,7 +23,7 @@ public class Unit4Task1 {
         for(int i = 0;i<n;i++){
             int j = i;
             if(mass[i][j]%2==0){
-                sum+=mass[i][j];
+                sum+=sum+mass[i][j];
             }
         }
         System.out.println(sum);

@@ -18,7 +18,7 @@ public class Unit4Task4 {
             System.out.println();
         }
 
-        System.out.println("Сумма элементов над побочной диагональю");
+        System.out.println("Сумма чётных элементов над побочной диагональю");
         int sum=0;
         for (int i = 0;i<n;i++){
            for (int j=0;j<n-i-1;j++){
